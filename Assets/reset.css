@@ -11,8 +11,8 @@
   body {
     min-height: 100%;
     line-height: 1;
-    font-family: sans-serif;
-    background-color: #94DCDC;
+    font-family: Helvetica;
+    background-color: hsl(180, 27%, 85%);
   }
   
   

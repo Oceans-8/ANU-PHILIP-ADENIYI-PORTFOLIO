@@ -1,9 +1,11 @@
 header h1{
     position: relative;
     background-color:#94DCDC;
-    max-width: 470px;
-    padding: 10px;
+    max-width: 400px;
+    padding: 5px;
     top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration:
 }
 
 nav ul{
@@ -21,28 +23,33 @@ nav ul li{
 
 a{
     color: #94DCDC;
-    text-decoration: underline;
-    
+    text-decoration: none;
+    border-bottom: 3px #94DCDC solid;
+    margin: 150px, 150px;
 }
+
 header {
     background-color:#0F3C3C;
     min-height: 80px;
+}
+
+header h1 p{
+    margin-left: 65px;
+    color: #0F3C3C;
 }
 
 .backgroundimage{
     position: relative;
     text-align: center;
 }
-section div {
-    background-color:#94DCDC;
-    color: #0F3C3C;
-    padding: 5px;
-}
 
 .bottom-right {
     position: absolute;
     bottom: 35px;
     right: 75px;
+    background-color:#94DCDC;
+    color: #0F3C3C;
+    padding: 5px;
 }
 
 .about-me-title{
@@ -53,12 +60,18 @@ section div {
     max-width: 200px;
     border-right: 5px #0F3C3C solid;
     padding-bottom: 60px;
+    padding-right: 20px;
     margin-bottom: 100px;
+    text-align: end;
 }
 
-header h1 p{
-    margin-left: 65px;
-    color: #0F3C3C;
+article section {
+    position: absolute;
+    left: 350px;
+    right: 100px;
+    padding-bottom: 10px;
+    top: 310px;
+    align-items: end;
 }
 
 article section p{
@@ -72,8 +85,92 @@ article section p{
     left: 100px;
     max-width: 200px;
     border-right: 5px #0F3C3C solid;
-    padding-bottom: 600px;
+    padding-bottom: 870px;
+    padding-right: 20px;
     margin-bottom: 100px;
+    text-align: end; 
+}
+
+section ul li div {
+    background-color:#94DCDC;
+    color: #0F3C3C;
+    padding: 20px 5px 15px 5px;
+    position: relative;
+    right: 116px;
+    top: 30px;
+}
+
+#text-box-position{
+    background-color:#94DCDC;
+    color: #0F3C3C;
+    padding: 20px 5px 15px 5px;
+    position: relative;
+    right: 400px;
+    top: 150px
+}
+
+section ul{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    flex-wrap: wrap;
+    top: 250px;
+}
+
+#Big-tile{
+    border: 3px #94DCDC solid;
+    padding: 200px 400px;
+    background-image: url("./2150697434.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#Small-Tile1{
+    border: 3px #94DCDC solid;
+    background-image: url("./2150697434.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#Small-Tile2{
+    border: 3px #94DCDC solid;
+    background-image: url("./2150697434.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#Small-Tile3{
+    border: 3px #94DCDC solid;
+    background-image: url("./2150697434.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#Small-Tile4{
+    border: 3px #94DCDC solid;
+    background-image: url("./2150697434.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+section ul li{
+    margin 
+    border: 4px #94DCDC solid;
+    padding: 50px 116px;
+    margin: 10px;
+    text-align: left;
+}
+
+
+
+ul li div p{
+    padding-right: 120px;
+}
+
+ul li div h3{
+    padding-right: 120px;
 }
 
 .contact-me-title{
@@ -84,16 +181,10 @@ article section p{
     max-width: 200px;
     border-right: 5px #0F3C3C solid;
     padding-bottom: 60px;
+    padding-right: 20px;
+    padding-right: 20px;
     margin-bottom: 100px;
-}
-
-
-article section {
-    position: absolute;
-    left: 350px;
-    right: 100px;
-    padding-bottom: 10px;
-    top: 310px;
-    align-items: end;
+    text-align: end;
+    
 }
 
