@@ -1,6 +1,6 @@
 header h1{
     position: relative;
-    background-color:#94DCDC;
+    background-color:#c49bb0;
     max-width: 400px;
     padding: 5px;
     top: 10px;
@@ -21,7 +21,7 @@ nav ul li{
     margin-right:20px;
 }
 
-a{
+nav a{
     color: #94DCDC;
     text-decoration: none;
     border-bottom: 3px #94DCDC solid;
@@ -47,7 +47,7 @@ header h1 p{
     position: absolute;
     bottom: 35px;
     right: 75px;
-    background-color:#94DCDC;
+    background-color:#c49bb0;
     color: #0F3C3C;
     padding: 5px;
 }
@@ -63,6 +63,7 @@ header h1 p{
     padding-right: 20px;
     margin-bottom: 100px;
     text-align: end;
+    color: rgb(64, 64, 64);
 }
 
 article section {
@@ -85,10 +86,11 @@ article section p{
     left: 100px;
     max-width: 200px;
     border-right: 5px #0F3C3C solid;
-    padding-bottom: 870px;
+    padding-bottom: 920px;
     padding-right: 20px;
     margin-bottom: 100px;
     text-align: end; 
+    color: rgb(64, 64, 64);
 }
 
 section ul li div {
@@ -100,78 +102,81 @@ section ul li div {
     top: 30px;
 }
 
-#text-box-position{
+#big-text-box-position{
     background-color:#94DCDC;
     color: #0F3C3C;
-    padding: 20px 5px 15px 5px;
     position: relative;
     right: 400px;
     top: 150px
 }
 
-section ul{
+#work-section{
     display: flex;
     justify-content: flex-start;
     position: relative;
     flex-wrap: wrap;
     top: 250px;
+    align-items: center;
+    right: 13px
 }
 
 #Big-tile{
-    border: 3px #94DCDC solid;
+    border: 5px #94DCDC solid;
     padding: 200px 400px;
-    background-image: url("./2150697434.jpg");
+    background-image: url("./3428449.jpg");
     background-size: cover;
     background-position: center;
+    width:1000px;
+}
+
+#article section ul li:hover {
+    border: 10px black solid;
 }
 
 
 #Small-Tile1{
-    border: 3px #94DCDC solid;
-    background-image: url("./2150697434.jpg");
+    border: 5px #94DCDC solid;
+    background-image: url("./3134864.jpg");
     background-size: cover;
     background-position: center;
+    padding-right: 150px;
+    
 }
 
 #Small-Tile2{
-    border: 3px #94DCDC solid;
+    border: 5px #94DCDC solid;
     background-image: url("./2150697434.jpg");
     background-size: cover;
     background-position: center;
+    width: 490px
 }
 
 #Small-Tile3{
-    border: 3px #94DCDC solid;
-    background-image: url("./2150697434.jpg");
+    border: 5px #94DCDC solid;
+    background-image: url("./3d-render-abstract-background-with-modern-plexus-design.jpg");
     background-size: cover;
     background-position: center;
+    width: 490px;
 }
 
 #Small-Tile4{
-    border: 3px #94DCDC solid;
-    background-image: url("./2150697434.jpg");
+    border: 5px #94DCDC solid;
+    background-image: url("./rorozoa_972022_2_17.jpg");
     background-size: cover;
     background-position: center;
+    width: 490px;
 }
 
 
-section ul li{
-    margin 
+article section ul li{
     border: 4px #94DCDC solid;
     padding: 50px 116px;
     margin: 10px;
     text-align: left;
+    width: 490px;
 }
 
 
-
-ul li div p{
-    padding-right: 120px;
-}
-
-ul li div h3{
-    padding-right: 120px;
-}
 
 .contact-me-title{
     font-size: 300%;
@@ -185,6 +190,23 @@ ul li div h3{
     padding-right: 20px;
     margin-bottom: 100px;
     text-align: end;
-    
+    color: rgb(64, 64, 64);
+}
+
+aside section ul{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    color: black
+    border: 0px;
+    padding: 50px 200px 0px 200px;
+    bottom: 240px;
+    left: 190px;
+    max-width: 1300px;
+
+}
+
+aside section ul li{
+    border-bottom: 5px rgb(64, 64, 64) solid;
 }
 
