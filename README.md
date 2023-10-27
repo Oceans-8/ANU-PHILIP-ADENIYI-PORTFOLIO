@@ -14,7 +14,7 @@ The final output is a well designed page that is informative and that has links 
 # License/Source/Credits
 
 A genius way to highlight background image tiles when hovering was obtained through stack overflow, see below:
-<a href="https://stackoverflow.com/questions/16178382/css-lighten-an-element-on-hover"></a>
+<a href="https://stackoverflow.com/questions/16178382/css-lighten-an-element-on-hover">StackOverflow:CSS-lighten</a>
 
 Stock images were used for background images:
 
@@ -33,6 +33,7 @@ Stock images were used for background images:
 ![Webpage](<Screenshot 2023-10-26 at 8.10.03 pm.png>)
 
 ## Link
+https://oceans-8.github.io/ANU-PHILIP-ADENIYI-PORTFOLIO/
 
 
 
