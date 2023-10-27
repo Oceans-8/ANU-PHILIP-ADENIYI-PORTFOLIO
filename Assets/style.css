@@ -16,6 +16,7 @@ nav ul{
     bottom: 20px;
     right: 40px;
 }
+
 nav ul li{
     justify-content: flex-end;
     margin-right:20px;
@@ -40,7 +41,7 @@ header h1 p{
 
 .backgroundimage{
     position: relative;
-    text-align: center;
+    ;
 }
 
 .bottom-right {
@@ -50,6 +51,12 @@ header h1 p{
     background-color:#c49bb0;
     color: #0F3C3C;
     padding: 5px;
+}
+
+.Left-Profile-Image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .about-me-title{
@@ -72,7 +79,6 @@ article section {
     right: 100px;
     padding-bottom: 10px;
     top: 310px;
-    align-items: end;
 }
 
 article section p{
@@ -106,8 +112,8 @@ section ul li div {
     background-color:#94DCDC;
     color: #0F3C3C;
     position: relative;
-    right: 400px;
-    top: 150px
+    right: 200px;
+    top: 160px
 }
 
 #work-section{
@@ -122,61 +128,74 @@ section ul li div {
 
 #Big-tile{
     border: 5px #94DCDC solid;
-    padding: 200px 400px;
-    background-image: url("./3428449.jpg");
+    margin: 10px 10px;
+    padding: 200px;
+    background-image: url("./Images/3428449.jpg");
     background-size: cover;
     background-position: center;
-    width:1000px;
 }
 
-#article section ul li:hover {
-    border: 10px black solid;
+section #Big-tile {
+    width: 100%;
 }
 
+
+article section ul li:hover{
+    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
 
 #Small-Tile1{
     border: 5px #94DCDC solid;
-    background-image: url("./3134864.jpg");
+    background-image: url("./Images/3134864.jpg");
     background-size: cover;
     background-position: center;
-    padding-right: 150px;
-    
+}
+
+section #Small-Tile1{
+    width: 48%;
 }
 
 #Small-Tile2{
     border: 5px #94DCDC solid;
-    background-image: url("./2150697434.jpg");
+    background-image: url("./Images/2150697434.jpg");
     background-size: cover;
     background-position: center;
-    width: 490px
 }
+
+section #Small-Tile2{
+    width: 48%;
+}
+
 
 #Small-Tile3{
     border: 5px #94DCDC solid;
-    background-image: url("./3d-render-abstract-background-with-modern-plexus-design.jpg");
+    background-image: url("./Images/3d-render-abstract-background-with-modern-plexus-design.jpg");
     background-size: cover;
     background-position: center;
-    width: 490px;
+}
+
+section #Small-Tile3{
+    width: 48%;
 }
 
 #Small-Tile4{
     border: 5px #94DCDC solid;
-    background-image: url("./rorozoa_972022_2_17.jpg");
+    background-image: url("./Images/Screenshot\ 2023-10-26\ at\ 8.02.15\ pm.png");
     background-size: cover;
     background-position: center;
-    width: 490px;
 }
 
+section #Small-Tile4{
+    width: 48%;
+}
 
 article section ul li{
     border: 4px #94DCDC solid;
     padding: 50px 116px;
     margin: 10px;
     text-align: left;
-    width: 490px;
+   
 }
-
-
 
 .contact-me-title{
     font-size: 300%;
@@ -197,16 +216,25 @@ aside section ul{
     position: relative;
     display: flex;
     justify-content:space-between;
-    color: black
+    flex-wrap: wrap;
+    color: black;
     border: 0px;
-    padding: 50px 200px 0px 200px;
+    padding: 50px 320px 0px 200px;
     bottom: 240px;
     left: 190px;
-    max-width: 1300px;
-
 }
 
 aside section ul li{
     border-bottom: 5px rgb(64, 64, 64) solid;
 }
 
+li a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1450px) {
+    .work-title {
+        padding-bottom: 1450px;
+    }
+
+}
